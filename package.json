@@ -1,0 +1,16 @@
+{
+  "name": "webassembly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+  	"src/*",
+  	"index.js",
+  	"index.html",
+  	"loadWebAsembly.js",
+  	"README.md"
+  ],
+  "scripts": {
+  	"compile": "./binaryen/bin/asm2wasm"
+  },
+  "license": "MIT"
+}
